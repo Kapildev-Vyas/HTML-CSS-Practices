@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+}
+h1
+{
+	color: red;
+	text-align: center;
+	text-decoration: underline white;
+	font-family: sans-serif;
+}
+p{
+	color: white;
+}
+div{
+	color:white;
+	margin-top: 150px;
+	margin-left: 650px;
+}
+h2{
+	color:red;
+	font-family: sans-serif;
+}
+button{
+	margin-top : 10px;
+	background-color: red;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 20px;
+	
+}
+button:hover{
+	color: red;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+	
