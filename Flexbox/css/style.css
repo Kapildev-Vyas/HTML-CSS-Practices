@@ -1,0 +1,80 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+	margin: 0;  /* to remove default space */
+}
+a{
+	text-decoration: none; /*to remove underline of lins*/
+}
+header{
+	background: #566c2b;
+	display: flex;  
+	align-items: center;
+	padding: 10px 0;
+}
+header a{
+	color: white;
+}
+header ul{
+	list-style: none;
+	Display:flex;  /* to display ul in one line */
+	padding: 0;   /* to remove default padding in ul */
+ 	margin:0;
+	
+}
+#logo{
+	margin: 0 auto;
+	font-size: 20px;
+}
+#menu li {
+	padding: 10px;
+}
+#social-links li{
+	padding: 10px;
+}
+#main{
+	display: flex;
+}
+aside{
+	padding:10px;
+	flex: 0 0 20vw;
+	background: beige;
+}
+article{
+	padding:10px;
+}
+aside ul{
+	list-style: none;
+	padding:0;
+}
+aside ul a{
+	color:#566c2b;
+	padding: 10px; /* here to apply padding for anchor need to become a block */
+	display: block;
+	border-bottom: 1px solid grey;
+}
+aside img{
+	width:100%;
+}
+.service-container{
+	display:flex;
+	justify-content:space-between;
+}
+.service-box{
+	border: 1px solid #eee;
+	flex-basis: 32%;
+	max-width: 370px;
+	padding: 10px;
+}
+.service-box img{
+	width: 100%;
+}
+footer{
+	background: #566c2b;
+	color:#fff;
+	text-align: center;
+	padding: 15px;
